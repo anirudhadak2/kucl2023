@@ -44,24 +44,40 @@ mobigames: https://www.mobygames.com/
 
 
  5  docker ps
+ 
     6  git clone https://github.com/schneidexe/docker-dosbox.git
     7  ls
     8  cd docker-dosbox
     9  ls
+    
    10  cat Dockerfile 
+   
    11  ls
+   
    12  docker  build -t mydosbox .
+   
    13  ls
+   
    14  mkdir  games
+   
    15  ls
+   
    16  cd games
+   
    17  pwd
+   
    18  docker run -d -v /root/docker-dosbox/games:/root/games/ -p 8080:8080 mydosbox:latest 
+   
    19  docker ps 
+   
    20  ls
+   
    21  pwd
+   
    22  docker ps 
+   
 ===============
+
 
    15  git clone https://github.com/anirudhadak2/kucl2023.git
    16  ls
