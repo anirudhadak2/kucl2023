@@ -80,41 +80,76 @@ mobigames: https://www.mobygames.com/
 
 
    15  git clone https://github.com/anirudhadak2/kucl2023.git
+   
    16  ls
+   
    17  cd kucl2023
+   
    18  ls
+   
    19  ls -la
+   
    20  ls
+   
    21  unzip DOSBOX_ALADDIN.ZIP
+   
    22  ls
+   
    23  pwd
+   
    24  ls
    25  cd 
+   
    26  ls
+   
    27  cd /root/docker-dosbox/games
+   
    28  ls
+
    29  cd ..
+   
    30  ls
+   
    31  docker build -t mydosbox .
+   
    32  ls
+   
    33  docker run -d -v /root/docker-dosbox/games:/root/games/ -p 8080:8080 mydosbox:latest 
+   
    34  ls
+   
    35  docker ps
+   
    36  ls
+   
    37  cd games
+   
    38  ls
+   
    39  pwd
+   
    40  cd 
+   
    41  ls
+   
    42  cd kucl2023
+   
    43  ls
+   
    44  cp DOSBOX_ALADDIN.ZIP /root/docker-dosbox/games
+   
    45  ls
+   
    46  cd /root/docker-dosbox/games
+   
    47  ls
+   
    48  unzip 
+   
    49  unzip /root/docker-dosbox/games
+   
    50  ls
+   
    51  unzip DOSBOX_ALADDIN.ZIP
 
 
